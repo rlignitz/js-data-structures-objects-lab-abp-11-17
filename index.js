@@ -11,6 +11,7 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 
 function deleteFromDriverByKey(driver, key) {
   let newDriver = Object.assign({}, driver);
+  //dot notation didn't work here (delete newDriver.key;)
   delete newDriver[key];
   return newDriver;
 }
