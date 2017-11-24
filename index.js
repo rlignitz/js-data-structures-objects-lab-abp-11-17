@@ -1,1 +1,1 @@
-const driver = {}
+const driver = {};
